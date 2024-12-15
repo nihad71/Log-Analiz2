@@ -57,14 +57,14 @@ Skript "access_log.txt" adlı faylı oxuyur. Bu faylda hər bir sətrin formatı
 ### 2. Skripti İşlətmək
 Skriptin işə salınması:
 ```bash
-python script.py
+python scan.py
 ```
 
 ### 3. Qara Siyahının Hazırlanması
 Qara siyahı məlumatları `http://127.0.0.1:8000` kimi yerli bir serverdə saxlanmalıdır və qara siyahı HTML formatında `<li>` elementləri daxilində olmalıdır.
 
 ### 4. Çıxış Fayllarına Baxış
-İcra prosesi bitdikdən sonra nəticələr "output_files" qovluğunda saxlanılır.
+İcra prosesi bitdikdən sonra nəticələr **"output_files"** qovluğunda saxlanılır.
 
 ## Əsas Proseslər və Onların Yerləri
 
